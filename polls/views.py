@@ -24,7 +24,7 @@ def neighbors(request , id):
     return render(request , 'polls/neighbors.html' , {'id': id})
 
 def guest(request , id , guest_id):
-    return render(request , 'polls/guest.html' , {'my_id' : id , 'guest_id' : guest_id})
+    return render(request , 'polls/guest.html' , {'id' : id , 'guest_id' : guest_id})
 
 def validation(request , id):
     return render(request , 'polls/validation.html' , {'id' : id})
