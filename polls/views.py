@@ -16,3 +16,6 @@ def mainpage(request , id):
 
 def financial(request , id , type):
     return render(request, 'polls/financial.html', {})
+
+def reservation(request , id , reserve):
+    return render(request, 'polls/reservation.html' , {'hasreserve' : reserve})
