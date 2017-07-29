@@ -22,22 +22,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Python/2.7/site-packages/django/db/models/base.py">
+      <file leaf-file-name="facility.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polls/templates/polls/facility.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="facility.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polls/templates/polls/facility.html">
+      <file leaf-file-name="guest.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polls/templates/polls/guest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="117">
+              <caret line="385" column="14" selection-start-line="385" selection-start-column="14" selection-end-line="385" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#5;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#a#0;n#center#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#4;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#td#4;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#4;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#td#4;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#4;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#td#4;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#4;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#td#4;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#td#0;n#tr#6;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#4;n#tr#6;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#td#4;n#tr#6;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#td#0;n#tr#7;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#4;n#tr#7;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#td#4;n#tr#7;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,8 +77,8 @@
       <file leaf-file-name="financial.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polls/templates/polls/financial.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="349" column="66" selection-start-line="349" selection-start-column="66" selection-end-line="349" selection-end-column="66" />
+            <state relative-caret-position="161">
+              <caret line="285" column="74" selection-start-line="285" selection-start-column="73" selection-end-line="285" selection-end-column="74" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -58,11 +90,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reservation.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="neighbors.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polls/templates/polls/neighbors.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="322" column="51" selection-start-line="322" selection-start-column="51" selection-end-line="322" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#5;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#6;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polls/templates/polls/validation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="377" column="14" selection-start-line="377" selection-start-column="14" selection-end-line="377" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#5;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reservation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polls/templates/polls/reservation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="385" column="44" selection-start-line="385" selection-start-column="44" selection-end-line="385" selection-end-column="44" />
+            <state relative-caret-position="297">
+              <caret line="367" column="14" selection-start-line="367" selection-start-column="14" selection-end-line="367" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -74,12 +141,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/polls/templates/polls/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="101" column="66" selection-start-line="101" selection-start-column="66" selection-end-line="101" selection-end-column="66" />
-              <folding />
+            <state relative-caret-position="101">
+              <caret line="388" column="51" selection-start-line="388" selection-start-column="51" selection-end-line="388" selection-end-column="51" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#5;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,8 +162,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polls/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -99,8 +174,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polls/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+            <state relative-caret-position="183">
+              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -108,37 +183,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tahlilproject/urls.py">
+      <file leaf-file-name="owner.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polls/templates/polls/owner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="134">
+              <caret line="459" column="0" selection-start-line="459" selection-start-column="0" selection-end-line="459" selection-end-column="0" />
               <folding>
-                <element signature="e#647#689#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polls/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1683">
-              <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polls/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#5;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,11 +218,15 @@
         <option value="$PROJECT_DIR$/polls/admin.py" />
         <option value="$PROJECT_DIR$/polls/models.py" />
         <option value="$PROJECT_DIR$/polls/templates/polls/facility.html" />
-        <option value="$PROJECT_DIR$/polls/views.py" />
         <option value="$PROJECT_DIR$/polls/urls.py" />
-        <option value="$PROJECT_DIR$/polls/templates/polls/index.html" />
-        <option value="$PROJECT_DIR$/polls/templates/polls/financial.html" />
+        <option value="$PROJECT_DIR$/polls/templates/polls/neighbors.html" />
+        <option value="$PROJECT_DIR$/polls/templates/polls/validation.html" />
         <option value="$PROJECT_DIR$/polls/templates/polls/reservation.html" />
+        <option value="$PROJECT_DIR$/polls/templates/polls/financial.html" />
+        <option value="$PROJECT_DIR$/polls/views.py" />
+        <option value="$PROJECT_DIR$/polls/templates/polls/guest.html" />
+        <option value="$PROJECT_DIR$/polls/templates/polls/owner.html" />
+        <option value="$PROJECT_DIR$/polls/templates/polls/index.html" />
       </list>
     </option>
   </component>
@@ -177,8 +236,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="60" />
+    <option name="x" value="79" />
+    <option name="y" value="91" />
     <option name="width" value="1400" />
     <option name="height" value="787" />
   </component>
@@ -562,6 +621,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f1fa6ca5-b1e2-49a5-b4a0-764ffc765247" name="Default" comment="" />
@@ -573,7 +635,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="60" width="1400" height="787" extended-state="0" />
+    <frame x="79" y="91" width="1400" height="787" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -582,7 +644,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33008358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33008358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -595,6 +657,14 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -662,22 +732,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polls/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/polls/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -698,24 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polls/templates/polls/facility.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polls/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tahlilproject/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -726,28 +768,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/polls/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1863">
+          <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="126" column="18" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/facility.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/polls/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polls/templates/polls/index.html">
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/validation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="101" column="66" selection-start-line="101" selection-start-column="66" selection-end-line="101" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polls/templates/polls/financial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="349" column="66" selection-start-line="349" selection-start-column="66" selection-end-line="349" selection-end-column="66" />
+        <state relative-caret-position="282">
+          <caret line="377" column="14" selection-start-line="377" selection-start-column="14" selection-end-line="377" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -760,9 +820,120 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/polls/templates/polls/reservation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="385" column="44" selection-start-line="385" selection-start-column="44" selection-end-line="385" selection-end-column="44" />
+        <state relative-caret-position="297">
+          <caret line="367" column="14" selection-start-line="367" selection-start-column="14" selection-end-line="367" selection-end-column="14" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#5;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/financial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="285" column="74" selection-start-line="285" selection-start-column="73" selection-end-line="285" selection-end-column="74" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#5;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/neighbors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="322" column="51" selection-start-line="322" selection-start-column="51" selection-end-line="322" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#5;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#6;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/guest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="385" column="14" selection-start-line="385" selection-start-column="14" selection-end-line="385" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#5;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#center#0;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#4;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#td#4;n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#4;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#td#4;n#tr#3;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#4;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#td#4;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#4;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#td#4;n#tr#5;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#6;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#4;n#tr#6;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#td#4;n#tr#6;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#7;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#4;n#tr#7;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#td#4;n#tr#7;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/owner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="459" column="0" selection-start-line="459" selection-start-column="0" selection-end-line="459" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#5;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/templates/polls/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="388" column="51" selection-start-line="388" selection-start-column="51" selection-end-line="388" selection-end-column="51" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#2;n#header#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
