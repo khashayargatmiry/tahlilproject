@@ -14,5 +14,5 @@ def mainpage(request , id):
    # formset = ApartmentFormSet()
     return render(request, 'polls/index.html' , {})
 
-def financial(request , id):
+def financial(request , id , type):
     return render(request, 'polls/financial.html', {})
