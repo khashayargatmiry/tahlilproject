@@ -9,8 +9,10 @@ from django.template import loader
 # Create your views here.
 
 
-def mainpage(request):
+def mainpage(request , id):
    # ApartmentFormSet = modelformset_factory(Apartment , fields=('number' , 'floor_num'))
    # formset = ApartmentFormSet()
     return render(request, 'polls/index.html' , {})
 
+def financial(request , id):
+    return render(request, 'polls/financial.html', {})
