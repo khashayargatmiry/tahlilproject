@@ -304,7 +304,7 @@
                                 <a href="#"><i class="icon_chat_alt"></i> Chats</a>
                             </li>
                             <li>
-                                <a href="login.html"><i class="icon_key_alt"></i> Log Out</a>
+                                <a href="../registration/login.html"><i class="icon_key_alt"></i> Log Out</a>
                             </li>
                             <li>
                                 <a href="documentation.html"><i class="icon_key_alt"></i> Documentation</a>
@@ -322,25 +322,25 @@
       <!--header end-->
 
       <!--sidebar start-->
-       <aside>
+        <aside>
           <div id="sidebar"  class="nav-collapse ">
               <!-- sidebar menu start-->
               <ul class="sidebar-menu">
                   <li class="active">
-                      <a class="" href="{%  url 'index' 10%}">
+                      <a class="" href="{%  url 'index' id%}">
                           <i class="icon_house_alt"></i>
                           <span>Dashboard</span>
                       </a>
                   </li>
 
 				  <li>
-                      <a class="" href="{%  url 'neighbors' 10%}">
+                      <a class="" href="{%  url 'neighbors' id%}">
                           <i class="icon_genius"></i>
                           <span>Neighbors</span>
                       </a>
                   </li>
 
-                  ///added
+
                   <li class="sub-menu">
                       <a href="javascript:;" class="">
                           <i class="icon_document_alt"></i>
@@ -348,15 +348,15 @@
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
                       <ul class="sub">
-                          <li><a class="" href="{%  url 'financial' 10 'charge'%}">Charges</a></li>
-                          <li><a class="" href="{%  url 'financial' 10 'bill' %}">Bills</a></li>
-                          <li><a class="" href="{%  url 'financial' 10 'tenant'%}">Tenant</a></li>
+                          <li><a class="" href="{%  url 'financial' id 'charge'%}">Charges</a></li>
+                          <li><a class="" href="{%  url 'financial' id 'bill' %}">Bills</a></li>
+                          <li><a class="" href="{%  url 'financial' id 'tenant'%}">Tenant</a></li>
                       </ul>
                   </li>
-                  ///
+
 
 				  <li>
-                      <a class="" href="{%  url 'reservation' 10 0%}">
+                      <a class="" href="{%  url 'reservation' id 0%}">
                           <i class="icon_genius"></i>
                           <span>Reservations</span>
                       </a>
@@ -364,7 +364,7 @@
 
                   {% if id == '10' %}
 				  <li>
-                      <a class="" href="{%  url 'owner' 10%}">
+                      <a class="" href="{%  url 'owner' id%}">
                           <i class="icon_genius"></i>
                           <span>Owner</span>
                       </a>
@@ -373,6 +373,9 @@
 
 
               </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
               <!-- sidebar menu end-->
           </div>
       </aside>
@@ -398,35 +401,40 @@
                           </header>
                           <div class="panel-body">
                               <div class="form">
-                                  <form class="form-validate form-horizontal" id="feedback_form" method="get" action="">
+                                  <form class="form-validate form-horizontal" id="feedback_form" method="post" action="{% url 'neighbors_add' id %}">
+
                                       <div class="form-group ">
                                           <label for="cname" class="control-label col-lg-2">Name <span class="required">*</span></label>
                                           <div class="col-lg-10">
-                                              <input class="form-control" id="cname" name="fullname" minlength="5" type="text" required />
+                                              {% csrf_token %}
+                                              <input class="form-control" id="name"  name="name" minlength="5" type="text" value="Name" required />
                                           </div>
                                       </div>
                                       <div class="form-group ">
                                           <label for="cemail" class="control-label col-lg-2">Family Name <span class="required">*</span></label>
                                           <div class="col-lg-10">
-                                              <input class="form-control " id="cemail" type="email" name="email" required />
+                                              {% csrf_token %}
+                                              <input class="form-control " id="cemail" type="text" value="Family Name" name="family_name" required />
                                           </div>
                                       </div>
                                       <div class="form-group ">
-                                          <label for="curl" class="control-label col-lg-2">Email <span class="required">*</span></label>
+                                          <label for="curl" class="control-label col-lg-2">National Id <span class="required">*</span></label>
                                           <div class="col-lg-10">
-                                              <input class="form-control " id="curl" type="url" name="url" />
+                                              {% csrf_token %}
+                                              <input class="form-control " id="curl" type="text" value="1111111111" name="national_id" />
                                           </div>
                                       </div>
                                       <div class="form-group ">
-                                          <label for="cname" class="control-label col-lg-2">Unser Name <span class="required">*</span></label>
+                                          <label for="cname" class="control-label col-lg-2">User Name <span class="required">*</span></label>
                                           <div class="col-lg-10">
-                                              <input class="form-control" id="subject" name="subject" minlength="5" type="text" required />
+                                              {% csrf_token %}
+                                              <input class="form-control" id="subject" value="User Name" name="username" minlength="5" type="text" required />
                                           </div>
                                       </div>
                                       <div class="form-group ">
                                           <label for="ccomment" class="control-label col-lg-2">Password <span class="required">*</span></label>
                                           <div class="col-lg-10">
-                                              <textarea class="form-control " id="ccomment" name="comment" required></textarea>
+                                              <textarea class="form-control " id="ccomment" value="password" name="password" required></textarea>
                                           </div>
                                       </div>
                                       <div class="form-group">

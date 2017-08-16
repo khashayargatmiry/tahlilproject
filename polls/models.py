@@ -2,8 +2,13 @@ from __future__ import unicode_literals
 from django.db import models
 from django.db import models
 from django.forms import ModelForm
+from django.contrib.auth.models import User
 
 # Create your models here.
+
+
+class Salam(models.Model):
+    esm = models.CharField(max_length=20 , primary_key=True)
 
 class Building(models.Model):
     postal_code = models.CharField(max_length=10 , primary_key=True)
@@ -16,25 +21,20 @@ class Apartment(models.Model):
     id = models.IntegerField(primary_key=True)
     building = models.ForeignKey('Building' , on_delete=models.CASCADE , null=True)
     floor = models.IntegerField()
-    _owner = models.ForeignKey('Owner' , on_delete=models.CASCADE , null=True)
-    main_neighbor = models.ForeignKey('Neighbor' , on_delete=models.CASCADE , null=True)
+    #_owner = models.ForeignKey('Owner' , on_delete=models.CASCADE , null=True)
+    #main_neighbor = models.ForeignKey('Neighbor' , on_delete=models.CASCADE , null=True)
 
     class Meta:
         unique_together = ('building' , 'floor')
 
 class Neighbor(models.Model):
-    national_id = models.CharField(max_length=10 , primary_key=True)
-    neighbor_name = models.CharField(max_length=100)
-    neighbor_family_name = models.CharField(max_length=100)
-    _apartment = models.ForeignKey('Apartment', on_delete=models.CASCADE , default=0)
-    username = models.CharField(max_length=30 , default='Untitiled')
-    password = models.CharField(max_length=30 , default='123456')
-    sex = models.CharField(max_length=5 , null=True)
-    email = models.CharField(max_length=30 , null=True)
-    type = models.CharField(max_length=30 , null=True)
-    bank_account = models.CharField(max_length=30)
-    _bank = models.ForeignKey('Bank' , on_delete=models.CASCADE)
-    #neighbor_nationalId = models.IntegerField()
+    user = models.ForeignKey(User, unique=True)
+    national_id = models.CharField(max_length=10, primary_key=True, null=False, default='1111')
+    apartment = models.ForeignKey('Apartment', on_delete=models.CASCADE, default=0, null=True)
+    sex = models.CharField(max_length=5, null=True)
+    type = models.CharField(max_length=30, null=True)
+    bank_account = models.CharField(max_length=30, null=True)
+    _bank = models.ForeignKey('Bank', on_delete=models.CASCADE, null=True)
 
 class Owner(models.Model):
     _apartment = models.ForeignKey('Apartment' , on_delete=models.CASCADE)
@@ -65,11 +65,13 @@ class Facility(models.Model):
 class Reservation(models.Model):
     neighbor = models.ForeignKey('Neighbor' , on_delete=models.CASCADE)
     facility = models.ForeignKey('Facility' , on_delete=models.CASCADE)
-    duration = models.IntegerField(default=1)
-    date_time = models.DateTimeField('date of reservation')
+    day = models.IntegerField(default=1)
+    time_partition = models.IntegerField(default=1)
+    #duration = models.IntegerField(default=1)
+    #date_time = models.DateTimeField('date of reservation')
 
     class Meta:
-        unique_together = ('neighbor' , 'facility' , 'date_time')
+        unique_together = ('neighbor' , 'facility')
 
 class Contract(models.Model):
     _owner = models.ForeignKey('Owner' , on_delete=models.CASCADE)
@@ -93,15 +95,18 @@ class Dashboard(models.Model):
 
 class UnAvailableTimes(models.Model):
     facility = models.ForeignKey('Facility' , on_delete=models.CASCADE)
-    date_time = models.DateTimeField('available times')
+    day = models.IntegerField(default=1)
+    time_partition = models.IntegerField(default=1)
+    #date_time = models.DateTimeField('available times')
 
 class Charge(models.Model):
-    title = models.CharField(max_length=30)
+    #title = models.CharField(max_length=30)
     price = models.IntegerField(default=300000)
     due_date = models.DateField('charge due date')
     is_payed = models.BooleanField(default=False)
     receipt = models.ForeignKey('Receipt' , on_delete=models.CASCADE , null=True)
     _apartment = models.ForeignKey('Apartment' , on_delete=models.CASCADE)
+
 
     class Meta:
         unique_together = ('due_date' , '_apartment')
@@ -137,13 +142,14 @@ class Bill(models.Model):
 class RequestLetter(models.Model):
     sender = models.ForeignKey('Neighbor' , related_name='polls_RequestLetter_related' ,
                                related_query_name='polls_RequestLetters')
-    receiver = models.ManyToManyField('Neighbor')
-    number = models.IntegerField(default=1)
+    receiver = models.ForeignKey('Neighbor' , default=0)
+    #number = models.IntegerField(default=1)
+    title = models.CharField(max_length=30 , default='')
     type = models.CharField(max_length=30)
     text = models.CharField(max_length=300)
 
 
-
+#not used
 class WarningLetter(models.Model):
     receiving_neighbor = models.ForeignKey('Neighbor', on_delete=models.CASCADE)
     number = models.IntegerField(default=1)
@@ -159,3 +165,16 @@ class WarningLetter(models.Model):
 #    class Meta:
 #        model = Apartment
 #        fields = ['number' , 'floor_num']
+
+# class Neighbor(models.Model):
+#     national_id = models.CharField(max_length=10 , primary_key=True , null=False , default='1111')
+#     neighbor_name = models.CharField(max_length=100)
+#     neighbor_family_name = models.CharField(max_length=100)
+#     apartment = models.ForeignKey('Apartment', on_delete=models.CASCADE , default=0 , null=True)
+#     username = models.CharField(max_length=30 , default='Untitiled')
+#     password = models.CharField(max_length=30 , default='123456')
+#     sex = models.CharField(max_length=5 , null=True)
+#     email = models.CharField(max_length=30 , null=True)
+#     type = models.CharField(max_length=30 , null=True)
+#     bank_account = models.CharField(max_length=30 , null=True)
+#     _bank = models.ForeignKey('Bank' , on_delete=models.CASCADE , null=True)

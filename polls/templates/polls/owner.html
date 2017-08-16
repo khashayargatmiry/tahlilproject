@@ -312,7 +312,7 @@
                                 <a href="#"><i class="icon_chat_alt"></i> Chats</a>
                             </li>
                             <li>
-                                <a href="login.html"><i class="icon_key_alt"></i> Log Out</a>
+                                <a href="../registration/login.html"><i class="icon_key_alt"></i> Log Out</a>
                             </li>
                             <li>
                                 <a href="documentation.html"><i class="icon_key_alt"></i> Documentation</a>
@@ -335,20 +335,20 @@
               <!-- sidebar menu start-->
               <ul class="sidebar-menu">
                   <li class="active">
-                      <a class="" href="{%  url 'index' 10%}">
+                      <a class="" href="{%  url 'index' id%}">
                           <i class="icon_house_alt"></i>
                           <span>Dashboard</span>
                       </a>
                   </li>
 
 				  <li>
-                      <a class="" href="{%  url 'neighbors' 10%}">
+                      <a class="" href="{%  url 'neighbors' id%}">
                           <i class="icon_genius"></i>
                           <span>Neighbors</span>
                       </a>
                   </li>
 
-                  ///added
+
                   <li class="sub-menu">
                       <a href="javascript:;" class="">
                           <i class="icon_document_alt"></i>
@@ -356,15 +356,15 @@
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
                       <ul class="sub">
-                          <li><a class="" href="{%  url 'financial' 10 'charge'%}">Charges</a></li>
-                          <li><a class="" href="{%  url 'financial' 10 'bill' %}">Bills</a></li>
-                          <li><a class="" href="{%  url 'financial' 10 'tenant'%}">Tenant</a></li>
+                          <li><a class="" href="{%  url 'financial' id 'charge'%}">Charges</a></li>
+                          <li><a class="" href="{%  url 'financial' id 'bill' %}">Bills</a></li>
+                          <li><a class="" href="{%  url 'financial' id 'tenant'%}">Tenant</a></li>
                       </ul>
                   </li>
-                  ///
+
 
 				  <li>
-                      <a class="" href="{%  url 'reservation' 10 0%}">
+                      <a class="" href="{%  url 'reservation' id 0%}">
                           <i class="icon_genius"></i>
                           <span>Reservations</span>
                       </a>
@@ -372,7 +372,7 @@
 
                   {% if id == '10' %}
 				  <li>
-                      <a class="" href="{%  url 'owner' 10%}">
+                      <a class="" href="{%  url 'owner' id%}">
                           <i class="icon_genius"></i>
                           <span>Owner</span>
                       </a>
